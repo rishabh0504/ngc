@@ -19,8 +19,7 @@ export class IconsComponent {
   @Input()
   classes?: string = '';
 
-
   public get extraClasses(): string[] {
-    return [`fa fa-${this.name} ngc-fa-${this.size} ngc-fa-${this.type} ${this.classes}`];
+    return [`fa fa-${this.name} ngc-icons ngc-fa-${this.size} ngc-fa-${this.type} ${this.classes}`];
   }
 }

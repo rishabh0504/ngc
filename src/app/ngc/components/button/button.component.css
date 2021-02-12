@@ -73,8 +73,10 @@
     flex-direction: row;
     justify-content: space-between;
 }
-.ngc-button { 
+.ngc-button,span { 
     pointer-events: auto;
+    display: flex;
+    align-items: center;
 }
 .ngc-disable{
     opacity: 0.5;
