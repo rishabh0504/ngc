@@ -3,43 +3,22 @@
     <app-button lable="Info small" size="small" type="info" classes='hello world' (click)="click()"
         icon="address-book-o" [isDisabled]="isDisabled">
     </app-button>
-
-    <app-button lable="Warning medium" size="medium" type="warning" classes='hello world' (click)="activateInfo()">
+    <app-button lable="Warning medium" size="medium" type="warning" classes='hello world' icon="address-book-o"
+        (click)="activateInfo()">
     </app-button>
-
-    <app-button lable="Danger large" size="large" type="danger" classes='hello world' (click)="click()">
+    <app-button lable="Danger large" size="large" type="danger" classes='hello world' icon="address-book-o"
+        (click)="click()">
     </app-button>
-
-    <app-button lable="Success extra large" size="extra-large" type="success" classes='hello world' (click)="click()">
+    <app-button lable="Success extra large" size="extra-large" type="success" classes='hello world'
+        icon="address-book-o" (click)="click()">
     </app-button>
 </div>
-<!-- <div class="container d-space-between">
-    <app-button lable="Info md" size="md" type="info" (click)="click()"></app-button>
-    <app-button lable="Warning md" size="md" type="warning"></app-button>
-    <app-button lable="Success md" size="md" type="success"></app-button>
-    <app-button lable="Danger md" size="md" type="danger"></app-button>
-</div>
-<div class="container d-space-between">
-    <app-button lable="Info lg" size="lg" type="info"></app-button>
-    <app-button lable="Warning lg" size="lg" type="warning"></app-button>
-    <app-button lable="Success lg" size="lg" type="success"></app-button>
-    <app-button lable="Danger lg" size="lg" type="danger"></app-button>
-</div>
-<div class="container d-space-between">
-    <app-button lable="Info xl" size="xl" type="info"></app-button>
-    <app-button lable="Warning xl" size="xl" type="warning"></app-button>
-    <app-button lable="Success xl" size="xl" type="success"></app-button>
-    <app-button lable="Danger xl" size="xl" type="danger"></app-button>
-</div> -->
 <!--Icons component-->
 <div class="container d-space-between align-items-center">
-    <!-- <app-icons name='area-chart' size='small' (click)="click()" no-active></app-icons> -->
-    <!-- <app-icons name='area-chart' size='small' type="info"></app-icons> -->
+    <app-icons name='area-chart' size='small'></app-icons>
+    <app-icons name='area-chart' size='small' type="info"></app-icons>
     <app-icons name='address-book-o' size='medium' type="warning">
     </app-icons>
     <app-icons name='area-chart' size='large' type="success" (click)="activateInfo()"></app-icons>
     <app-icons name='area-chart' size='extra-large' type="danger"></app-icons>
 </div>
-
-
-<!-- <button (click)="click()" ngc-disabled>text button</button> -->
