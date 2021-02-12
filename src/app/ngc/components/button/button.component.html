@@ -1,0 +1,9 @@
+<!-- <button [ngClass]="extraClasses" (click)="click($event)" (mouseover)="mouseover($event)">
+    {{lable}}
+</button> -->
+<button [ngClass]="extraClasses" [disabled]="isDisabled">
+    <span>
+        {{lable}}
+        <app-icons *ngIf="icon" [name]='icon' size='small' classes='test'></app-icons>
+    </span>
+</button>

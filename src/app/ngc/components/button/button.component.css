@@ -1,0 +1,86 @@
+ .ngc-button {
+    display: inline-block;
+    border: none;
+    margin: 0;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: sans-serif;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ngc-button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+.ngc-button:active {
+    transform: scale(0.99);
+}
+.ngc-button-small{
+    font-size: 10px;
+    padding: 10px 15px;
+}
+.ngc-button-medium{
+    font-size: 12px ;
+    padding: 10px 15px;
+}
+.ngc-button-large{
+    font-size: 14px;
+    padding: 10px 15px;
+}
+.ngc-button-extra-large{
+    font-size: 16px;
+    padding: 10px 15px;
+}
+.ngc-button-info{
+    background-color:#40aef2;
+}
+.ngc-button-info:hover,
+.ngc-button-info:focus {
+    background: #338bc1;
+}
+.ngc-button-warning{
+    background-color:#f8b134;
+}
+.ngc-button-warning:hover,
+.ngc-button-warning:focus {
+    background: #df9f2e;
+}
+.ngc-button-success{
+    background-color:#76ba76;
+}
+.ngc-button-success:hover,
+.ngc-button-success:focus {
+    background: #5e945e;
+}
+.ngc-button-danger{
+    background-color:#ff6f6f;
+}
+.ngc-button-danger:hover,
+.ngc-button-danger:focus {
+    background: #cc3c3c;
+}
+.d-space-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ngc-button { 
+    pointer-events: auto;
+}
+.ngc-disable{
+    opacity: 0.5;
+     cursor: not-allowed !important;
+}
+
+::ng-deep .ngc-button * {
+    pointer-events: none !important;
+} 

@@ -1,0 +1,50 @@
+.ngc-icons-small {
+  height: 14px;
+  width: 14px;
+}
+.ngc-icons-medium {
+  height: 18px;
+  width: 18px;
+}
+.ngc-icons-large {
+  height: 22px;
+  width: 22px;
+}
+.ngc-icons-extra-large {
+  height: 26px;
+  width:  26px;
+}
+
+.ngc-fa-small{
+  font-size: 14px;
+}
+.ngc-fa-medium{
+  font-size: 18px;
+}
+.ngc-fa-large{
+  font-size: 22px;
+}
+.ngc-fa-extra-large{
+  font-size: 26px;
+}
+.disable{
+    opacity: 0.5;
+}
+.ngc-fa-default{
+  color: inherit;
+}
+.ngc-fa-info{
+  color:#40aef2;
+}
+.ngc-fa-warning{
+  color:#f8b134;
+}
+.ngc-fa-success{
+  color:#76ba76;
+}
+.ngc-fa-danger{
+  color:#ff6f6f;
+}
+.ngc-fa{
+  padding:0px 5px;
+}
