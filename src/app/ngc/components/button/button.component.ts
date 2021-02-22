@@ -12,7 +12,7 @@ export class ButtonComponent {
     Add lable.
   */
   @Input()
-  lable = 'Button';
+  lable = 'Checkbox';
 
   /*
     Add button size.

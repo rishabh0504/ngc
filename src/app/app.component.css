@@ -1,11 +1,9 @@
-
+/* 
 @import '~font-awesome/css/font-awesome.min.css';
-
 
 .row{
     margin:0px -15px;
 }
-
 .container, .container-fluid{
     padding: 20px;
     display: flex;
@@ -25,9 +23,19 @@
     justify-content: space-between;
 }
 .align-items-center{
-    align-items: center;
-}
-
-/* ::ng-deep .test{
-    margin: 20px  !important;
+   align-items: center;
 } */
+
+
+html body header h1 {
+color: blue;
+}
+body header.page-header h1 {
+color: orange;
+}
+.page-header .title {
+color: green;
+}
+#page-title {
+color: red;
+}

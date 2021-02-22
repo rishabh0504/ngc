@@ -1,0 +1,8 @@
+.ngc-input:focus {
+    outline: 1px solid #fff;
+}
+.ngc-input{
+    border-radius: 4px;
+    font-size: 10px;
+    padding: 4px;
+}

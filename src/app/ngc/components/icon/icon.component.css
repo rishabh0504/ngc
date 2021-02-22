@@ -1,19 +1,19 @@
-.ngc-icons{
+.ngc-icon{
   padding: 0px 5px;
 }
-.ngc-icons-small {
+.ngc-icon-small {
   height: 14px;
   width: 14px;
 }
-.ngc-icons-medium {
+.ngc-icon-medium {
   height: 18px;
   width: 18px;
 }
-.ngc-icons-large {
+.ngc-icon-large {
   height: 22px;
   width: 22px;
 }
-.ngc-icons-extra-large {
+.ngc-icon-extra-large {
   height: 26px;
   width:  26px;
 }

@@ -1,12 +1,10 @@
 import { Component, Input, ViewEncapsulation } from '@angular/core';
 @Component({
-  selector: 'app-icons',
-  templateUrl: './icons.component.html',
-  styleUrls: ['./icons.component.css'],
-  encapsulation: ViewEncapsulation.None
-
+  selector: 'app-icon',
+  templateUrl: './icon.component.html',
+  styleUrls: ['./icon.component.css']
 })
-export class IconsComponent {
+export class IconComponent {
   @Input()
   name: string = '';
 
@@ -20,6 +18,6 @@ export class IconsComponent {
   classes?: string = '';
 
   public get extraClasses(): string[] {
-    return [`fa fa-${this.name} ngc-icons ngc-fa-${this.size} ngc-fa-${this.type} ${this.classes}`];
+    return [`fa fa-${this.name} ngc-icon ngc-fa-${this.size} ngc-fa-${this.type} ${this.classes}`];
   }
 }

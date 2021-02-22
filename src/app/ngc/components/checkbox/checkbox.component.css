@@ -1,0 +1,15 @@
+.ngc-checkbox-small,.ngc-checkbox-medium,.ngc-checkbox-large,.ngc-checkbox-extra-large{
+    transition: all .2s ease-in-out;
+}
+.ngc-checkbox-small:checked {
+    transform: scale(1.1);
+}
+.ngc-checkbox-medium:checked {
+    transform: scale(1.3);
+}
+.ngc-checkbox-large:checked {
+    transform: scale(1.6);
+}
+.ngc-checkbox-extra-large:checked {
+    transform: scale(2);
+}
